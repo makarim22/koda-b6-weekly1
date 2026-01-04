@@ -61,9 +61,11 @@ function checkout(cart) {
 
 function historyTransaction(riwayatPesanan) {
     console.log('Riwayat Pesanan:');
+    const total = riwayatPesanan.reduce((sum, transaction) => sum + transaction.totalPrice, 0);
     riwayatPesanan.forEach(transaction => {
-        console.log(`pesanan atas nama : ${transaction.name} , tanggal pesan:  ${transaction.day}. item: ${transaction.itemNames}` );
+        console.log(`pesanan atas nama : ${transaction.name} , tanggal pesan:  ${transaction.day}. item: ${transaction.itemNames}` );  
     });
+    console.log('total dibayarkan: Rp', total);
 }
 async function main() {
     const cart = []; 
@@ -108,7 +110,7 @@ async function main() {
                 } else {
                     console.log('Tidak ada barang ditambahkan ke keranjang.');
                 }
-                riwayatPesanan.push({name, day, itemNames: item.name});
+                riwayatPesanan.push({name, day, itemNames: item.name, totalPrice: item.price});
                 rl.question("Masukkan quantity: ", (quantity) => {
                     if (isNaN(quantity) || quantity <= 0) {
                         console.log('Input tidak valid: harus berupa angka positif');
