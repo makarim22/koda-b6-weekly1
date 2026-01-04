@@ -1,0 +1,22 @@
+[
+    { "id": 1, "name": "Mie Gacoan", "price": 16000, "description": "Mie dengan saus pedas manis yang membuatmu ketagihan." },
+    { "id": 2, "name": "Mie Hompimpa", "price": 16000, "description": "Mie dengan cita rasa unik dan bumbu rahasia." },
+    { "id": 3, "name": "Mie Suit", "price": 16000, "description": "Mie dengan cita rasa pedas yang bisa disesuaikan tingkat kepedasannya." },
+    { "id": 4, "name": "Udang Keju", "price": 14000, "description": "Mie udang yang dibalut dengan keju melimpah." },
+    { "id": 5, "name": "Udang Rambutan", "price": 74000, "description": "Udang segar yang disajikan dengan berbagai saus pilihan." },
+    { "id": 6, "name": "Lemon Tea", "price": 10000, "description": "Minuman segar dengan perpaduan lemon dan teh." },
+    { "id": 7, "name": "Mie Goreng Spesial", "price": 20000, "description": "Mie goreng dengan campuran sayuran dan protein pilihan." },
+    { "id": 8, "name": "Mie Pedas Makaroni", "price": 18000, "description": "Mie pedas dengan tambahan makaroni yang renyah." },
+    { "id": 9, "name": "Sup Mie Gacoan", "price": 25000, "description": "Sup bening dengan mie dan sayuran segar." },
+    { "id": 10, "name": "Bakso Ayam", "price": 15000, "description": "Bakso ayam kenyal disajikan dalam kuah dengan mie." },
+    { "id": 11, "name": "Gacoan Combat", "price": 74000, "description": "Paket hemat yang berisi berbagai jenis mie dan minuman." },
+    { "id": 12, "name": "Kentang Goreng", "price": 12000, "description": "Kentang goreng renyah dengan saus sambal." },
+    { "id": 13, "name": "Ayam Penyet", "price": 25000, "description": "Ayam goreng yang disajikan dengan sambal terasi." },
+    { "id": 14, "name": "Tahu Tempe", "price": 8000, "description": "Tahu dan tempe goreng, cocok sebagai lauk pendamping." },
+    { "id": 15, "name": "Es Teh Manis", "price": 8000, "description": "Teh manis segar untuk menghilangkan dahaga." },
+    { "id": 16, "name": "Soda Gembira", "price": 9000, "description": "Minuman soda dengan kombinasi sirup manis." },
+    { "id": 17, "name": "Kwetiau Goreng", "price": 22000, "description": "Kwetiau goreng dengan bumbu khas Mie Gacoan." },
+    { "id": 18, "name": "Sate Ayam", "price": 30000, "description": "Sate ayam dengan bumbu kacang yang lezat." },
+    { "id": 19, "name": "Mie Ayam", "price": 18000, "description": "Mie ayam dengan kuah kaldu yang enak." },
+    { "id": 20, "name": "Pancake Coklat", "price": 15000, "description": "Pancake lembut dengan topping coklat." }
+]
